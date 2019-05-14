@@ -1,0 +1,40 @@
+﻿@model IEnumerable<CareerCloud.MVC.Models.JobPostedVM>
+
+<h4>
+   
+    
+</h4>
+@{ 
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    Guid companyId = (Guid)TempData["CompanyId"];
+<h2><b>Company Name:&nbsp</b>  @ViewBag.CompanyName</h2>
+
+}
+<div>
+    <table class="table">
+        <tr style="background-color:aquamarine">
+            <td><h5><b>Posted Jobs</b></h5></td>
+            <td></td>
+            <td></td>
+            <td><b>@Html.ActionLink("+Create New Job", "Create", new { id = companyId })</b></td>
+        </tr>
+    </table>
+</div>
+<p>
+    
+</p>
+
+@if (!Model.Any())
+{
+    <p>No Jop Posted</p>
+}
+else
+{
+    
+    @Html.Partial("_JobPosted")
+}
+<p style="background-color:aquamarine;padding:5px;font-size:18px;font-weight:bold">
+    
+        @Html.ActionLink("Back To List", "Index", new { Controller="CompanyProfiles" })
+    
+</p>

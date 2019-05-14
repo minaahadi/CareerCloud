@@ -1,0 +1,18 @@
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\CareerCloud.DataAccessLayer.dll
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\CareerCloud.DataAccessLayer.pdb
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.dll
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.pdb
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\chaur\source\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\CareerCloud.DataAccessLayer.dll
+C:\Users\chaur\source\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\CareerCloud.DataAccessLayer.pdb
+C:\Users\chaur\source\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csprojAssemblyReference.cache
+C:\Users\chaur\source\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\chaur\source\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.dll
+C:\Users\chaur\source\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.pdb
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\CareerCloud.DataAccessLayer.dll
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.DataAccessLayer\bin\Debug\CareerCloud.DataAccessLayer.pdb
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csprojAssemblyReference.cache
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.csproj.CoreCompileInputs.cache
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.dll
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.DataAccessLayer\obj\Debug\CareerCloud.DataAccessLayer.pdb

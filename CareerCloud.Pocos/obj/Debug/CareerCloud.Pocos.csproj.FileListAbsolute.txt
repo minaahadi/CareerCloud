@@ -1,0 +1,18 @@
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csproj.CoreCompileInputs.cache
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.dll
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.pdb
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.dll
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.pdb
+C:\Users\chaur\source\repos\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csprojAssemblyReference.cache
+C:\Users\chaur\source\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.dll
+C:\Users\chaur\source\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.pdb
+C:\Users\chaur\source\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csproj.CoreCompileInputs.cache
+C:\Users\chaur\source\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.dll
+C:\Users\chaur\source\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.pdb
+C:\Users\chaur\source\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csprojAssemblyReference.cache
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.dll
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.Pocos\bin\Debug\CareerCloud.Pocos.pdb
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csprojAssemblyReference.cache
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.csproj.CoreCompileInputs.cache
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.dll
+D:\New folder (3)\New folder\CareerCloud\CareerCloud\CareerCloud.Pocos\obj\Debug\CareerCloud.Pocos.pdb

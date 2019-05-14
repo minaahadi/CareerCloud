@@ -1,0 +1,112 @@
+﻿@model CareerCloud.Pocos.ApplicantProfilePoco
+
+@{
+    ViewBag.Title = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@Model.SecurityLogin.FullName</h2>
+<br />
+@using (Html.BeginForm("SearchJob", "ApplicantJobApplications", FormMethod.Get, new { @class = "form-inline" }))
+{
+    <b>Search Job: &nbsp;</b>
+    @Html.TextBox("search", null, new { @class = "form-control" })
+    <input type="submit" value="search" class="form-control"/>
+}
+<br />
+<div>
+    @*<h4>ApplicantProfilePoco</h4>*@
+    <hr />
+    <dl class="dl-horizontal">
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.SecurityLogin.Login)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SecurityLogin.Login)
+        </dd>
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.SecurityLogin.EmailAddress)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SecurityLogin.EmailAddress)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.SecurityLogin.PhoneNumber)
+        </dt>
+        <dd>
+            @Html.DisplayFor(model => model.SecurityLogin.PhoneNumber)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.SystemCountryCode.Name)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.SystemCountryCode.Name)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.CurrentSalary)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentSalary)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.CurrentRate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CurrentRate)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.Currency)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Currency)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.Province)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Province)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.Street)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Street)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.City)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.City)
+        </dd>
+
+        <dt class="text-left">
+            @Html.DisplayNameFor(model => model.PostalCode)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PostalCode)
+        </dd>
+
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

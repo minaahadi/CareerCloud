@@ -1,0 +1,71 @@
+﻿@model IEnumerable<CareerCloud.MVC.Models.AppliedJobVM>
+
+@{
+    ViewBag.Title = "Applied Job";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>@ViewBag.ApplicantName</h2>
+
+<p>
+    @*@Html.ActionLink("Create New", "Create")*@
+
+    @using (Html.BeginForm("SearchJob", "ApplicantJobApplications", FormMethod.Get, new { @class = "form-inline" }))
+    {
+
+            @Html.TextBox("search",null,new { @class="form-control"})
+             <input type="submit" value="search" class="form-control"/>
+       
+
+    }
+</p>
+<div>
+    <table class="table">
+        <tr style="background-color:aquamarine">
+            <th>
+                @Html.DisplayNameFor(model => model.ApplicantId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AppliedId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobTitle)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.JobDescription)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ApplicationDate)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicantId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.AppliedId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobTitle)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.JobDescription)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ApplicationDate)
+                </td>
+
+            </tr>
+        }
+
+    </table>
+</div>
+
+
+<div style="background-color:aquamarine">
+    @Html.ActionLink("Back to List", "Index",new { Controller="ApplicantProfiles"})
+</div>

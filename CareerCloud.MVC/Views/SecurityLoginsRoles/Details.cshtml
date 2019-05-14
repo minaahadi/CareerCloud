@@ -1,0 +1,42 @@
+﻿@model CareerCloud.Pocos.SecurityLoginsRolePoco
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Details</title>
+</head>
+<body>
+    <div>
+        <h4>SecurityLoginsRolePoco</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.SecurityLogin.Login)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.SecurityLogin.Login)
+            </dd>
+    
+            <dt>
+                @Html.DisplayNameFor(model => model.SecurityRole.Role)
+            </dt>
+    
+            <dd>
+                @Html.DisplayFor(model => model.SecurityRole.Role)
+            </dd>
+    
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</body>
+</html>
